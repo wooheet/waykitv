@@ -1,0 +1,9 @@
+endpoint: https://us1.prisma.sh/godjsdleka/prismagram/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
+
+    # 프리즈마는 어플리케이션에 필요한 모델을 그래프큐엘로 정의할 수 있다.
+    # 프리즈마가 그래프큐엘로 정의한 모델을 이해한 후 코드 생성

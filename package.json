@@ -1,0 +1,25 @@
+{
+  "name": "waykitv",
+  "version": "1.0.0",
+  "description": "wakitv streaming platform",
+  "main": "index.js",
+  "repository": "git@github.com:wooheet/waykitv.git",
+  "author": "tedy <tedy@r2v.io>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "graphql-tools": "^4.0.5",
+    "graphql-yoga": "^1.18.2",
+    "merge-graphql-schemas": "^1.7.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
