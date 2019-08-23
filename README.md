@@ -1,7 +1,5 @@
 # waykitv
 
-## User Stories
-
 React, Graphql, Prisma(DB), Node.js
 
 - [ ] Like / Unlike a photo

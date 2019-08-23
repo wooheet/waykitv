@@ -1,7 +1,3 @@
-import dotenv from "dotenv";
-import path from "path";
-dotenv.config({ path: path.resolve(__dirname, ".env") });
-
 import { adjectives, nouns } from "./words";
 import nodemailer from "nodemailer";
 import sgTransport from "nodemailer-sendgrid-transport";
@@ -26,8 +22,8 @@ export const sendSecretMail = (adress, secret) => {
     const email = {
         from: "tedy@r2v.io",
         to: adress,
-        subject: "🔒Login Secret for WAYKITV🔒",
-        html: `Hello! Your login secret it ${secret}.<br/>Copy paste on the app/website to log in`
+        subject: "🔒Login Secret for WAYKI TV🔒",
+        html: `Hello! Your login secret is <strong>${secret}</strong>.<br/>Copy paste on the app/website to log in`
     };
     return sendMail(email);
 };
