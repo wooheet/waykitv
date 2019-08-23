@@ -2,6 +2,8 @@
 
 ## User Stories
 
+React, Graphql, Prisma(DB), Node.js
+
 - [ ] Like / Unlike a photo
 - [ ] Vote
 - [ ] Comment on a photo
@@ -16,5 +18,3 @@
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
-
-
