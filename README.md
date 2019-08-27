@@ -4,15 +4,15 @@ React, Graphql, Prisma(DB), Node.js
 
 - [ ] Like / Unlike a photo
 - [ ] Vote
-- [ ] Comment on a photo
+- [ ] Comment on a Video
 - [ ] Search by user
 - [ ] Search by location
 - [ ] See user profile
-- [ ] Follow / Unfollow User
-- [ ] See the full photo
-- [ ] Edit my profile
+- [x] Follow / Unfollow User
+- [x] See the full photo
+- [x] Edit my profile
 - [ ] Create account
 - [ ] Log in
-- [ ] Upload a photo
+- [ ] Upload a video
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
