@@ -1,11 +1,8 @@
 import EncryptionUtils from './encryption/encryptionutils';
 const nacl = require('tweetnacl');
-nacl.util = require('tweetnacl-util');
 
-let privateKey = nacl.util.decodeUTF8(etherInfo.privateKey);
-privateKey = new Uint8Array(privateKey);
+let privateKey = new Uint8Array(nacl.util.decodeUTF8(pk));
 const symNonce = EncryptionUtils.generate24ByteNonce();
-
 
 const encryption = () => {
     scrypt(
@@ -33,7 +30,7 @@ const encryption = () => {
 
 
 
-const encryption = () => {
+const decryption = () => {
     scrypt(
         password,
         'saltysalt',
